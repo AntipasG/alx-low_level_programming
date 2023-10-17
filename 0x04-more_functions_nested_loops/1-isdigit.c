@@ -1,10 +1,11 @@
 #include "main.h"
 #include <ctype.h>
+
 /**
+ *_isdigit - checking if c is Digit or not
+ *@c: paramater to be checked
  *
- *
- *
- *
+ *Return: if it is number return 1 if not 0
  **/
 
 int _isdigit(int c)
@@ -13,6 +14,6 @@ int _isdigit(int c)
 	{
 		return (1);
 	}
-	else 
+	else
 		return (0);
 }
